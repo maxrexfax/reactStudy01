@@ -1,18 +1,15 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 
 const App = () => {
   return (
     <div className="app-wrapper">
-      <header>
-        <img src="https://cdn.dribbble.com/users/31864/screenshots/3666062/attachments/819877/2.jpg?compress=1&resize=400x300"/>
-      </header>
-      <nav>
-        Profile
-      </nav>
-      <div>
-        Main content
-      </div>
+      <Header />
+      <Navbar />
+      <Profile />
     </div>
   );
 }
