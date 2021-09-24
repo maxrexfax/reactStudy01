@@ -13,6 +13,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <div className="app-wrapper">
+                {/*Подключаем компоненты внутри главного App.js*/}
                 <Header/>
                 <Navbar/>
                 <div className="app-wrapper-content">
@@ -21,8 +22,6 @@ const App = () => {
                     <Route path='/news' component={News}/>
                     <Route path='/music' component={Music}/>
                     <Route path='/settings' component={Settings}/>
-                    {/*<Profile />*/}
-                    {/*<Dialogs/>*/}
                 </div>
             </div>
         </BrowserRouter>

@@ -8,7 +8,7 @@ const Navbar = () => {
       <NavLink to="/profile" activeClassName={classes.active}>Profile</NavLink>
       </div>
     <div className={`${classes.item} ${classes.active}`}>
-      <NavLink to="/dialogs" activeClassName={classes.active}>Messages</NavLink>
+      <NavLink /*exact*/ to="/dialogs" activeClassName={classes.active}>Messages</NavLink>
       </div>
     <div className={classes.item} >
       <NavLink to="/news" activeClassName={classes.active}>News</NavLink>
